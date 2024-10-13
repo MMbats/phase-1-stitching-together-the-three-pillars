@@ -34,3 +34,21 @@ article.media-post > footer {
 article.media-post > footer ul {
   list-style-type: none;
 }
+body {
+  font-family: Arial, sans-serif;
+}
+
+.post {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.heart {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.liked {
+  color: red; /* Changes heart color to red when liked */
+}
